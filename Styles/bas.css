@@ -1,0 +1,12 @@
+/* Bas */
+body {
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 100px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}

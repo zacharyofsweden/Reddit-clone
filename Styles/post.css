@@ -1,0 +1,165 @@
+/* Posts */
+.post {
+    background-color: white;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 200px;
+}
+
+.post-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: gray;
+    padding: 10px;
+}
+
+.post-subreddit {
+    color: blue;
+    margin-right: 5px;
+}
+
+.post-author {
+    margin-right: 5px;
+}
+
+.post-flair {
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.post-tags {
+    background-color: rebeccapurple;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.post-title {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.post-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: gray;
+    padding: 10px;
+}
+
+.post-score {
+    margin-right: 10px;
+}
+
+.post-awards {
+    margin-right: 10px;
+}
+
+.post-comments {
+    margin-right: 10px;
+}
+
+.post-share {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.post-save {
+    margin-right: 10px;
+}
+
+/* Post hover */
+.post-score:before {
+    content: "👍";
+    margin-right: 5px;
+}
+
+.post-awards:before {
+    content: "🏅";
+    margin-right: 5px;
+}
+
+.post-comments:before {
+    content: "💬";
+    margin-right: 5px;
+}
+
+.post-share:before {
+    content: "🔗";
+    margin-right: 5px;
+}
+
+.post-save:before {
+    content: "📥";
+    margin-right: 5px;
+}
+
+.post-report:before {
+    content: "🚩";
+    margin-right: 5px;
+}
+
+.post-footer span:hover {
+    color: black;
+}
+
+
+/* Formulär */
+
+#post-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    display: none;
+    position: absolute;
+    width: 50%;
+    min-width: 200px;
+    margin: auto;
+    left: 25%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 900;
+}
+
+#post-form input,
+#post-form textarea {
+    width: 80%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#post-form input[type=submit] {
+    width: 30%;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#post-form input[type=submit]:hover {
+    background-color: #ff6600;
+}
