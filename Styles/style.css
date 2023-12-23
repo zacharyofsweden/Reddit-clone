@@ -15,16 +15,6 @@ header {
     border-bottom: 1px solid rgb(228, 228, 228);
 }
 
-nav {
-    z-index: 101;
-    height: 1000px;
-    display: none;
-    position: fixed;
-    left: 50px;
-    bottom: 0;
-    background-color: lightblue;
-    width: 300px;
-}
 
 .container {
     margin-top: -145px;
